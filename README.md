@@ -30,3 +30,12 @@ Alchemy setup:
 * bundle add alchemy-devise
 * rake alchemy:install
 * visit localhost:3000 after rails s
+
+To add new page layout for you to choose when creating pages:
+* go to config/alchemy/page_layouts.yml
+* Follow https://guides.alchemy-cms.com/pages.html#defining-page-layouts and add new layout template
+* update config/alchemy/elements.yml too
+
+
+KNOWN ISSUES
+* 'rails g alchemy:page_layouts --skip' does not work

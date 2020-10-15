@@ -55,5 +55,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'alchemy_cms', :git => 'git://github.com/AlchemyCMS/alchemy_cms', :branch => '5.0-stable'
 gem 'case_transform' # this is needed for alchemy:install
-
 gem "alchemy-devise", "~> 4.5"

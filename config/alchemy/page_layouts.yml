@@ -6,3 +6,9 @@
   unique: true
   elements: [article]
   autogenerate: [article]
+
+- name: contact
+  cache: false
+  unique: true
+  elements: [headline, contactform, text]
+  autogenerate: [headline, contactform]
