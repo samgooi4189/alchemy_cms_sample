@@ -53,7 +53,7 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'alchemy_cms', :git => 'git://github.com/AlchemyCMS/alchemy_cms', :branch => 'master'
+gem 'alchemy_cms', :git => 'git://github.com/AlchemyCMS/alchemy_cms', :branch => '5.0-stable'
 #gem 'case_transform' # this is needed for alchemy:install
 
-gem "alchemy-devise", "~> 4.5"
+gem "alchemy-devise", github: "AlchemyCMS/alchemy-devise", branch: "master"
