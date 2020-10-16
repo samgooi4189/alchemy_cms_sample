@@ -39,4 +39,4 @@
 
 
 ## KNOWN ISSUES
-* 'rails g alchemy:page_layouts --skip' does not work
+* 'rails g alchemy:page_layouts --skip' does not work (resolved by alchemy-devise master branch)
