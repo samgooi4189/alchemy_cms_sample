@@ -1,14 +1,14 @@
 GIT
   remote: git://github.com/AlchemyCMS/alchemy_cms
-  revision: 0df93dc9cdce472058d07fffb8d002cc9de08be8
-  branch: 5.0-stable
+  revision: 91bc323a812c1c2052b88e11b12a390a970a6f99
+  branch: master
   specs:
-    alchemy_cms (5.0.1)
+    alchemy_cms (5.1.0.alpha)
       active_model_serializers (~> 0.10.0)
       acts_as_list (>= 0.3, < 2)
       awesome_nested_set (~> 3.1)
       cancancan (>= 2.1, < 4.0)
-      coffee-rails (~> 4.0, < 5.0)
+      coffee-rails (>= 4.0, < 6.0)
       dragonfly (~> 1.0, >= 1.0.7)
       dragonfly_svg (~> 0.0.4)
       gutentag (~> 2.2, >= 2.2.1)
@@ -119,9 +119,9 @@ GEM
     case_transform (0.2)
       activesupport
     childprocess (3.0.0)
-    coffee-rails (4.2.2)
+    coffee-rails (5.0.0)
       coffee-script (>= 2.2.0)
-      railties (>= 4.0.0)
+      railties (>= 5.2.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -322,7 +322,6 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
-  case_transform
   jbuilder (~> 2.7)
   listen (~> 3.2)
   puma (~> 4.1)
@@ -342,4 +341,4 @@ RUBY VERSION
    ruby 2.6.5p114
 
 BUNDLED WITH
-   1.17.3
+   2.1.4
